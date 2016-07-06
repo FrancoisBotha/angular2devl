@@ -1,16 +1,5 @@
+// Import Angular 2 and application modules.
 import {bootstrap} from '@angular/platform-browser-dynamic';
-import {Component} from '@angular/core';
+import ApplicationComponent from 'app/components/application/application';
 
-@Component({
-    selector: 'app',
-    template: `<h1>Hello {{ name }}!</h1>`
-})
-class AppComponent {
-    name: string;
-
-    constructor() {
-        this.name = 'Angular 2';
-    }
-}
-
-bootstrap(AppComponent);
+bootstrap(ApplicationComponent);

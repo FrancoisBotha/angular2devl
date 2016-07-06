@@ -5,8 +5,8 @@ System.config({
         'app' : 'app',
         'rxjs': 'node_modules/rxjs',
         '@angular'                         : 'node_modules/@angular'
-    },
-    packages: {
+      },
+      packages: {
         'app'                              : {main: 'main.ts', defaultExtension: 'ts'},
         'rxjs'                             : {main: 'index.js'},
         '@angular/core'                    : {main: 'index.js'},
@@ -15,5 +15,5 @@ System.config({
         '@angular/router'                  : {main: 'index.js'},
         '@angular/platform-browser'        : {main: 'index.js'},
         '@angular/platform-browser-dynamic': {main: 'index.js'}
-    }
+      }
 });
